@@ -104,6 +104,13 @@ input::placeholder {
   border-width: 2px 0 0 2px;
 }
 
+.kaiju-card-Add-button {
+  position: absolute;
+  left: 42%;
+  bottom: 0%;
+  border-width: 2px 0 0 2px;
+}
+
 button {
   color: white;
   background: #000a;

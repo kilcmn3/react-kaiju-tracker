@@ -23,6 +23,12 @@
       "name": "Gidorah",
       "power": "Lightning breath",
       "image": "https://i.ebayimg.com/images/g/kskAAOSwp2VdldA4/s-l640.jpg"
+    },
+    {
+      "name": "dragon",
+      "power": "fire",
+      "image": "https://i.pinimg.com/originals/f6/c5/9e/f6c59edcad55887dd349f3ec109dea2f.jpg",
+      "id": 5
     }
   ],
   "sightings": [
@@ -31,6 +37,12 @@
       "kaijuId": 1,
       "location": "Tokyo",
       "description": "Oh no! There goes Tokyo! Go go Godzilla!"
+    },
+    {
+      "location": "NYC",
+      "description": "Be hold NYC!",
+      "kaijuId": 1,
+      "id": 2
     }
   ]
 }

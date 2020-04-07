@@ -67,9 +67,9 @@ A form has already been provided for adding new Kaiju. Make sure that this is a 
 The edit button on the card, once clicked, should show a form within the Kaiju card with the class of `kaiju-card-edit-form`. This should be rendered conditionally. When thinking about conditional rendering, can you leverage state in some way to decide whether it should be shown?
 
 Similar to adding a Kaiju, both the front and back end should reflect the edited Kaiju once that Kaiju has been submitted. The same goes for the delete button (which you should add yourself!).
-
+[v]
 **BONUS: The delete button only renders when the edit form is open**
-
+[v]
 ## Sightings
 
 This next bit is deliberately vague because it's up to you to decide how it'll work and look like!
@@ -90,7 +90,7 @@ A typical sighting will look like this:
 ```
 
 Create an additional component on each Kaiju card that displays each of the monster's sightings i.e. each sighting's description and location.
-
+[v]
 ## Adding Sightings
 
 Once this is working you'll notice there aren't a lot of sightings. So the next step is to add a form that allows us to add more sightings!

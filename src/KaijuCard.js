@@ -2,6 +2,7 @@
 import React from 'react';
 // Components
 import EditKaijuForm from './EditKaijuForm';
+import Sighting from './Sighting';
 
 class KaijuCard extends React.Component {
   // How can we show the edit form conditionally?
@@ -27,7 +28,7 @@ class KaijuCard extends React.Component {
           src={image}
           alt={'Maybe something should go here'}
         />
-
+        <Sighting kaiju={this.props.kaiju} />
         {this.state.editToggle ? (
           <EditKaijuForm
             handleSubmit={this.props.handleSubmit}
@@ -36,6 +37,7 @@ class KaijuCard extends React.Component {
             kaiju={this.props.kaiju}
           />
         ) : null}
+
         <button
           className='kaiju-card-edit-button'
           onClick={this.handleToggle}

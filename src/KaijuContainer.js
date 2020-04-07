@@ -6,6 +6,7 @@ import CreateKaijuForm from './CreateKaijuForm';
 import TickerContainer from './TickerContainer';
 //Fetch Requests
 import * as requests from './requests';
+
 // Read the README for how to fetch
 
 class KaijuContainer extends React.Component {

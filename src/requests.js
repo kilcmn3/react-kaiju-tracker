@@ -52,3 +52,18 @@ export const fetchSightings = () =>
   fetch(sightingsURL).then(parseData).catch(catchError);
 
 // TODO: define a few more sighting fetches
+
+export const fetchKaijuSightings = (id) =>
+  fetch(`${sightingsURL}?kaijuId=${id}`).then(parseData).catch(catchError);
+
+export const postSightings = (data) => {
+  return fetch(sightingsURL, {
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  })
+    .then(parseData)
+    .catch(catchError);
+};
