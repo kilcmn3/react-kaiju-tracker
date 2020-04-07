@@ -34,7 +34,7 @@ A typical Kaiju object returned looks like this:
   image: "https://images-na.ssl-images-amazon.com/images/I/71Q1ckgmeQL._SX425_.jpg"
 }
 ```
-
+[v]
 ## Kaiju Cards
 
 ![Rawr monsters!](public/assets/MonsterCard.png)
@@ -53,15 +53,15 @@ Once the Kaiju have been fetched, load them into the Kaiju container element. An
 
 </div>
 ```
-
+[v]
 ## Adding Kaiju
 
 A form has already been provided for adding new Kaiju. Make sure that this is a `controlled form`. When thinking about how to do this, consider these things: should the Kaiju be added optimistically or pessimistically? Where does the Kaiju need to be updated? How can this be done without mutating state?
-
+[v]
 **BONUS: Render the create form conditionally (user must click a button to see the form).**
 
 ## Editing and Deleting Kaiju
-
+[v]
 ![Edit that Kaiju!](public/assets/MonsterEdit.png)
 
 The edit button on the card, once clicked, should show a form within the Kaiju card with the class of `kaiju-card-edit-form`. This should be rendered conditionally. When thinking about conditional rendering, can you leverage state in some way to decide whether it should be shown?
